@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .container {
+        max-width: 800px;
+        margin: auto;
+        color: #000;
+        padding: 0 12px;
+    }
+
+    .svg-wrapper {
+        text-align: center;
+        margin: -6px 0 6px 0;
+    }
+
+    .svg-wrapper img {
+        display: inline-block;
+    }
+
+    .last-page-footer {
+        font-family: Verdana, sans-serif;
+        font-size: 9pt;
+        color: #283776;
+        text-align: center;
+        margin-top: 50px;
+        line-height: 1.4;
+    }
+
+    /* Superscript bold verse numbers (kept for future use, unused now) */
+    .verse-num {
+        font-weight: bold;
+        font-size: 0.65em;
+        vertical-align: super;
+        line-height: 0;
+    }
+
+    /* Print button styling */
+    .print-btn {
+        font-size: 10pt;
+        padding: 4px 10px;
+        border: 1px solid #283776;
+        background: #fff;
+        color: #283776;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 10px 0 12px 0;
+    }
+
+    .print-btn:hover {
+        background: #f0f0f0;
+    }
+
+    /* PRINTâ€‘ONLY FIXES */
+    @media print {
+
+        @page {
+            margin-bottom: 0.3in;
+        }
+
+        /* Hide print button */
+        .print-btn {
+            display: none;
+        }
+
+        /* Manual page-break class (use when needed) */
+        .page-break-after {
+            page-break-after: always;
+            break-after: page;
+        }
+
+        .last-page-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 4pt 0;
+            text-align: center;
+            background: none;
+
+            /* Prevent Chrome/Edge from dropping the footer */
+            z-index: 9999;
+            transform: translateZ(0);
+        }
+
+        body {
+            counter-reset: page;
+            overflow: visible !important;
+        }
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="svg-wrapper">
+<img src="https://res.cloudinary.com/dsaksgdqw/image/upload/v1770394764/Logo_gray_letters_nyezde.png"
+     alt="Morning Star Logo"
+     width="90"
+     height="91"
+     style="display: inline-block;">
+</div>
+
+<p style="text-align: center; margin: 0 0 5px 0; font-size: clamp(1.2rem, 5vw, 14pt); font-weight: bold; line-height: 1.0; letter-spacing: 0.03em;">
+    Morning Star Las Cruces
+</p>
+
+<p style="text-align: center; margin: 0 0 5px 0; font-size: clamp(1.2rem, 5vw, 14pt); font-weight: bold; line-height: 1.0; letter-spacing: 0.03em;">
+    2026 Discussion Questions
+</p>
+
+<button class="print-btn" onclick="window.print()">Print</button>
+
+<p style="margin: 6pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    December 20, 2026
+</p>
+
+<p style="margin: 0pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Series: Holy Humbug: The Good News According to a Christmas Carol
+</p>
+
+<p style="margin: 0pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Title: Christmas Forever
+</p>
+
+<p style="margin: 0 0 6pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Primary Text: Luke 1:46-55
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    1. Are you someone who loves Christmas and wishes it could last all year, or are you ready for the decorations to come down on December 26th and for life to return to normal?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    2. What is something you hope will never change, or something you wish the world would never lose?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    3. In the sermon, "Holy Humbug: Christmas Forever," what stood out to you? What did you want to discuss?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    4. Read Luke 1:46-55. What do you notice about the things Mary celebrates and the things she says God is doing? Who is lifted up, and who is brought down?
+</p>
+
+<p class="page-break-after" style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    5. Mary's song celebrates God's mercy, but it also describes a dramatic reversal of the world's usual arrangements of power and privilege. What do you think Mary is imagining when she sings about the hungry being filled and the powerful being brought down?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    6. Mary speaks about God's promises as though they are already being fulfilled, even though the world around her hasn't yet changed. What might it mean to live with hope in something God is doing before we can fully see it?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    7. Read Psalm 145:1-13. The psalm celebrates God's goodness and faithfulness from one generation to another. What does it mean to be part of a story of faith that began long before us and will continue long after us? How does that shape the way we understand God's promises?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    8. Read Revelation 21:1-5. What details stand out to you about the new creation John describes? How does this vision expand or deepen the hope expressed in Mary's song?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    9. If Christmas is a revolution in how we understand power, worth, mercy, and belonging, what would it look like to live as though that revolution never ends?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    10. How can we pray for one another as we work toward a world that looks more like the one she sings about?
+</p>
+
+</div>
+
+<div class="last-page-footer">
+Mission and Vision of Morning Star: To point people to the grace of God found in Jesus<br>
+through inspirational worship, radical inclusion and the alleviation of suffering.
+</div>
+
+</body>
+</html>
